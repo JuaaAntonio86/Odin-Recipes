@@ -35,3 +35,21 @@
 	background-color: yellow;
 	color: black;
 }
+
+
+.avatar.proportioned {
+	width: 300px;
+	height: auto;
+}
+
+.avatar.distorted {
+	width: 200px;
+	height: 400px;
+}
+
+.container .text {
+	background-color: yellow;
+	color: #E00000;
+	font-size: 20px;
+	text-align: center;
+}
