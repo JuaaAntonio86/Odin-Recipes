@@ -1,0 +1,49 @@
+#description{
+	font-size: large;
+	font-weight: 400;
+}
+
+.box{
+	background-color: rgb(246, 212, 169);
+	overflow: auto;
+	box-shadow: inset;
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+}
+
+#title{
+	color: black;
+	font-size: 80px;
+	text-underline-position: auto;
+	text-decoration:dotted ;
+}
+
+
+ul, ol {
+    padding: 10px;
+    list-style-position: inside; /* Optional: to keep bullets/numbers inside */
+}
+
+ul li {
+    padding-left: 0; /* No extra padding on list items */
+    text-align: left; /* Ensure text is aligned left within the list item */
+}
+ul {
+    padding-left: 20%; /* Move the bullets 10% from the left side of the container */
+    list-style-position: inside; /* Ensures the bullets are inside the padding */
+    margin: 0; /* Reset default margin if necessary */
+}
+ol ul{
+	padding-left: 10%; /* Move the bullets 10% from the left side of the container */
+
+}
+
+#list{
+	font-weight: 700;
+	font-size: x-large;
+}
+
+*{
+	text-align: center;
+}
